@@ -12,14 +12,16 @@
 <body>
     <form action="">
         <div class="name">
-            <input placeholder="ФИО">
+            <input placeholder="ФИО" id="name">
         </div>
-        <div class="telephone" id=divf>
-            <input placeholder="Телефон">
-            <button id="but" onclick=plus()>+</button>
+        <div class="telephone">
+            <input placeholder="Телефон" id="telephone">
         </div>
         <div class="comment">
-            <input placeholder="Комментарий">
+            <input placeholder="Комментарий" id="comment">
+        </div>
+        <div>
+            <button onClick=send()>SEND</button>
         </div>
 
     </form>
