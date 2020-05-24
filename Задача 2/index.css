@@ -1,0 +1,27 @@
+.white{
+    display: flex;
+}
+.white div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: seashell;
+}
+.blue{
+    display: flex;
+}
+.blue div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.red{
+    display: flex;
+}
+.red div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+}

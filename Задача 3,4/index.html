@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        
+        function plus() {
+            document.getElementById('divf').innerHTML += '<br><input type=text placeholder="Телефон N" style="margin-top: 5px;"> <button id=butt onclick=add()>+</button>'
+            document.getElementById('but').remove()            
+        }
+        function add(){
+            document.getElementById('butt').remove()
+            document.getElementById('divf').innerHTML += '<br><input type=text placeholder="Телефон N" style="margin-top: 5px;"> <button id=butt onclick=add()>+</button>'
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <form action="">
+        <div class="name">
+            <input placeholder="ФИО">
+        </div>
+        <div class="telephone" id=divf>
+            <input placeholder="Телефон">
+            <button id="but" onclick=plus()>+</button>
+        </div>
+        <div class="comment">
+            <input placeholder="Комментарий">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
